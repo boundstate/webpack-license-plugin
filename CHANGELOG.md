@@ -1,3 +1,7 @@
+# 4.3.0
+
+- prefer module directory with license in package.json
+
 # 4.2.3 
 
 - fix deprecation warning
