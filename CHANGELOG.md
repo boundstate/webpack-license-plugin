@@ -1,3 +1,7 @@
+# 4.2.3 
+
+- fix deprecation warning
+
 # 4.2.2
 
 - fixed a bug where the plugin was missing omitting dependencies (thanks to [@WIStudent](https://github.com/WIStudent))
