@@ -1,5 +1,5 @@
 {
-  "name": "webpack-license-plugin",
+  "name": "@boundstate/webpack-license-plugin",
   "version": "4.2.2",
   "description": "Extracts OSS license information of the npm packages in your webpack output",
   "keywords": [

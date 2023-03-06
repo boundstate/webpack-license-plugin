@@ -57,13 +57,13 @@ Install `webpack-license-plugin` as a development dependency to your current pro
 #### npm
 
 ```console
-$ npm install -D webpack-license-plugin
+$ npm install -D @boundstate/webpack-license-plugin
 ```
 
 #### Yarn
 
 ```console
-$ yarn add -D webpack-license-plugin
+$ yarn add -D @boundstate/webpack-license-plugin
 ```
 
 # How to use
@@ -71,7 +71,7 @@ $ yarn add -D webpack-license-plugin
 Use `webpack-license-plugin` in your webpack configuration by adding it to the `plugins` array.
 
 ```js
-const LicensePlugin = require('webpack-license-plugin')
+const LicensePlugin = require('@boundstate/webpack-license-plugin')
 
 module.exports = {
   plugins: [
@@ -106,7 +106,7 @@ The available options are:
 This example writes the result to a file named `meta/licenses.json` in the output directory, fails whenever it encounters one of the given licenses and overrides the license of the package `fuse.js@3.2.1`.
 
 ```js
-const LicensePlugin = require('webpack-license-plugin')
+const LicensePlugin = require('@boundstate/webpack-license-plugin')
 
 module.exports = {
   // ...
@@ -193,7 +193,7 @@ This way, the output can be formatted to any format you might need and then be w
 ### Package list as CSV
 
 ```js
-const LicensePlugin = require('webpack-license-plugin')
+const LicensePlugin = require('@boundstate/webpack-license-plugin')
 
 const csvTransform = (packages) => {
   const keys = ['name', 'version', 'license']
@@ -220,7 +220,7 @@ module.exports = {
 ### Package list and additional summary
 
 ```js
-const LicensePlugin = require('webpack-license-plugin')
+const LicensePlugin = require('@boundstate/webpack-license-plugin')
 
 module.exports = {
   // ...
